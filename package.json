@@ -1,8 +1,8 @@
 {
-  "name": "vite-portfolio-v2",
+  "name": "portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://t-godwins.github.io/vite-portfolio-final/",
+  "homepage": "https://t-godwins.github.io/portfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite",
