@@ -1,0 +1,83 @@
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+
+.navbar{
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+    padding:1px;
+    display:inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: fade-up 2s;
+    box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.034);
+
+    position: sticky;
+    top: 0;
+    
+}
+
+.navbar .left, .navbar .right {
+    display: flex;
+}
+
+.left button{
+    background-color:rgba(0, 0, 0, 0.804);
+    border-radius: 20px;
+    border: 2px solid transparent;
+    padding:5px;
+    width: 150px;
+    height: auto;
+    display: inline-block;
+    margin-left: 20%;
+    cursor:pointer;
+  }
+
+
+.right button{
+    background-color:white;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    padding:5px;
+    width: 100px;
+    height: auto;
+    display: inline-block;
+    margin-right: 5%;
+    cursor:pointer;
+  }
+
+.left button:hover {
+    background-color:rgba(0, 0, 0, 0.898);
+    border-color: rgba(255, 255, 255, 0.218);
+
+}
+
+.right button:hover {
+    background-color:rgba(16, 16, 16, 0.03);
+    border-color: rgba(0, 0, 0, 0.131);
+
+  }
+
+.navbar a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.linkedin, .gmail, .github {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+
+}
