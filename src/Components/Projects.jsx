@@ -25,7 +25,7 @@ function Projects(){
                 <h1>Gather articles for your research with a PubMed Scrapper</h1>
                 <p>PubMed comprises of over 37 million citations for biomedical literature. 
                     I developed an article scrapper to promote efficient and thorough literature review. 
-                    Selenium, Beautiful Soup and Pandas packages were used wihtin Jupyter Notebook.</p>
+                    Selenium, Beautiful Soup and Pandas packages were used within Jupyter Notebook.</p>
                 <button><a href={pubmed}>Repository</a></button>
             </motion.div>
             
