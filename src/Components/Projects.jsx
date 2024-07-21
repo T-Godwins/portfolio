@@ -22,7 +22,7 @@ function Projects(){
                 whileInView={{opacity: 1, y: 0, transition: {delay: 0.2 , duration: 0.5}}}
                 viewport={{once: false, amount: .5}} 
                 className='name'>
-                <h1>Gather article for your research with a PubMed Scrapper</h1>
+                <h1>Gather articles for your research with a PubMed Scrapper</h1>
                 <p>PubMed comprises of over 37 million citations for biomedical literature. 
                     I developed an article scrapper to promote efficient and thorough literature review. 
                     Selenium, Beautiful Soup and Pandas packages were used wihtin Jupyter Notebook.</p>
