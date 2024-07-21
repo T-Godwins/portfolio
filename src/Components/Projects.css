@@ -80,6 +80,7 @@
     .project{
         display: inline-block;
         text-align: center;
+        align-content: center;
         margin: 5%;
     }
     .name{
@@ -89,7 +90,7 @@
         text-align: center;
     }
     .demo {
-        width: 100%;
+        width: 86%;
         margin: 1%
 
     }

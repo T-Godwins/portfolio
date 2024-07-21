@@ -70,5 +70,7 @@
     .experiences ul{
         min-width: 90%;
         height: auto;
+        margin: 5%;
+        padding: 5%;
     }
 }

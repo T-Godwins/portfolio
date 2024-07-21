@@ -81,3 +81,18 @@
     cursor: pointer;
 
 }
+
+@media (max-width: 800px) {
+    .navbar{
+        position: sticky;
+        top: 0;
+    }
+    .linkedin, .gmail, .github {
+        width: 25px;
+        height: auto;
+    }
+
+    .right button{
+        margin:1%;
+    }
+}
