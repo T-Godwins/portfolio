@@ -65,3 +65,10 @@
 .experiences a:hover{
     filter: drop-shadow(0 0 .5em rgb(54, 215, 193));
 }
+
+@media (max-width: 800px){
+    .experiences ul{
+        min-width: 90%;
+        height: auto;
+    }
+}

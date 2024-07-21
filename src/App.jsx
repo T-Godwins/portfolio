@@ -47,15 +47,15 @@ function App() {
           initial={{opacity:0, x:-50}}
           whileInView={{opacity:1, x:0, trantion: {delay: 5, duration: 10}}}
           viewport={{once:false, amount:.5}}>
-          Thank you
+          Thank you.
         </motion.p>
 
-        <motion.p 
+        {/* <motion.p 
           initial={{opacity:0, x:50}}
           whileInView={{opacity:1, x:0, trantion: {delay: 5, duration: 10}}}
           viewport={{once:false, amount:.5}}>
           .
-        </motion.p>
+        </motion.p> */}
       </h1>
     </>
   )

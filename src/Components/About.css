@@ -23,13 +23,13 @@
 }
 
 .About{
-    /* background-color: rgba(38, 106, 29, 0.639); */
-    width: 100%;
+    background-color: rgba(38, 106, 29, 0.639);
+    /* width: 100%; */
     border-radius: 10px;
     padding:10px;
     margin:0;
-    display:inline-block;
-    display: flex;
+    /* display:inline-block; */
+    /* display: flex; */
     justify-content: space-between;
     align-items: center;
     /* animation: fade-right 3s; */
@@ -44,7 +44,7 @@
     padding: 20px;
     margin: 10px;
     text-align: left;
-    max-width: 50%;
+    /* max-width: 50%; */
     display: inline-block;
     background-color: rgba(127, 255, 212, 0.114);
 
@@ -90,26 +90,27 @@
     margin: 10px;
     max-width: auto;
     min-width: 50%;
-    align-items: center;
 
     display: inline-block
   }
 
-.skills ul{
+.skills-container{
     background-color: #f2400a20;
     border-radius: 30px;
+    padding:10px;
+
 
 }
-.skills li{
+.languages{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size:200%;
     color:black;
     padding: 10px;
     letter-spacing: 1px;
     font-weight: 500;
-    text-align: center;
     list-style: none;
-    align-items: center;
+    align-items: left;
+    text-align: center;
     
 }
 
@@ -118,8 +119,15 @@
     height: auto;
     margin: 10px;
     cursor: pointer;
+    /* text-align: left;
+    align-items: center; */
+
+
 }
 
+.certifications {
+    text-align: center;
+}
 .Aws {
     width: 100px;
     height: auto;
@@ -127,12 +135,29 @@
     /* margin: 10px; */
     cursor: pointer;
     align-items: center;
-
 }
 
 .skills p {
     font-size: 20px;
+    text-align: center;
+}
+
+.skills h1 {
+    text-align: center;
 }
 .python:hover, .cplus:hover, .sql:hover, .java:hover, .R:hover , .Aws:hover{
     filter: drop-shadow(0 0 2em #c20606c5);
+  }
+
+
+  @media (min-width: 800px) {
+    .About {
+        width: 100%;
+        display:inline-block;
+        display: flex;
+    }
+
+    .about{
+        max-width: 50%;
+    }
   }

@@ -28,19 +28,19 @@ function About(){
             whileInView={{opacity: 1, x: 0, transition: {delay: 1 , duration: 0.5}}}
             viewport={{once: false, amount: .5}} 
             className="skills">
-            <ul>
-                <li>Programming Languages</li>
-                <li>
+            <div className='skills-container'>
+                <h1>Programming Languages</h1>
+                <div className='languages'>
                 <img className="python" src={python} alt="python logo"></img>
                 <img className="cplus" src={cplus} alt="C++ logo"></img>
                 <img className="sql" src={sql} alt="sql logo"></img>
                 <img className="java" src={java} alt="javascript logo"></img>
                 <img className="R" src={rstudio} alt="R logo"></img>
-                </li>
-                <li>Certifications:</li>
-                <li><img className="Aws" src={aws} alt="amazon logo"></img><p>*Currently pursuing*</p></li>
+                </div>
+                <h1>Certifications:</h1>
+                <div className='certifications'><img className="Aws" src={aws} alt="amazon logo"></img><p>*Currently pursuing*</p></div>
                 
-            </ul>
+            </div>
         </motion.div>
         </>
     );
