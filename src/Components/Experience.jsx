@@ -17,10 +17,10 @@ function Experience(){
             className='exp-title'>Experience
         </motion.h1>
 
-        <motion.div 
-            initial={{opacity:0, x: 50}}
-            whileInView={{opacity: 1, x: 0, transition: {delay: 0.2 , duration: 1}}}
-            viewport={{once: false, amount: .5}} 
+        <div 
+            // initial={{opacity:0, x: 50}}
+            // whileInView={{opacity: 1, x: 0, transition: {delay: 0.2 , duration: 1}}}
+            // viewport={{once: false, amount: .5}} 
             className='experiences'>
             <motion.ul
                 initial={{opacity:0.3}}
@@ -59,7 +59,7 @@ function Experience(){
                 <li>Employed different methods of normalization in 15 cancer types in the validation of DetermaIOTM results.</li>
                 <li>Developed a PubMed web scrapping program using Python for oncogene-related literature review.</li>
             </motion.ul>
-        </motion.div>
+        </div>
         </>
     );
 }
