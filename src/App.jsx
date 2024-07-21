@@ -23,7 +23,7 @@ function App() {
       <motion.div 
         initial={{opacity:0}}
         whileInView={{opacity: 1, transition: {delay: 0.2 , duration: 0.5}}}
-        viewport={{once: false, amount: .2}} 
+        viewport={{once: false, amount: .5}} 
         className="About"><About/></motion.div>
 
 
