@@ -18,8 +18,8 @@ function Projects(){
 
         <div className='project'>
             <motion.div 
-                initial={{opacity: 0, y: 50}}
-                whileInView={{opacity: 1, y: 0, transition: {delay: 0.2 , duration: 0.5}}}
+                initial={{opacity: 0}}
+                whileInView={{opacity: 1, transition: {delay: 0.2 , duration: 0.5}}}
                 viewport={{once: false, amount: .5}} 
                 className='name'>
                 <h1>Gather articles for your research with a PubMed Scrapper</h1>
