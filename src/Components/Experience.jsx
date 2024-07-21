@@ -18,9 +18,9 @@ function Experience(){
         </motion.h1>
 
         <motion.div 
-            initial={{opacity:0, x: 500}}
+            initial={{opacity:0, x: 50}}
             whileInView={{opacity: 1, x: 0, transition: {delay: 0.2 , duration: 1}}}
-            viewport={{once: false, amount: .3}} 
+            viewport={{once: false, amount: .5}} 
             className='experiences'>
             <motion.ul
                 initial={{opacity:0.3}}
