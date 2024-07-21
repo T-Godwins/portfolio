@@ -40,7 +40,7 @@
     width: 150px;
     height: auto;
     display: inline-block;
-    margin-left: 20%;
+    /* margin-left: 20%; */
     cursor:pointer;
   }
 
@@ -53,7 +53,7 @@
     width: 100px;
     height: auto;
     display: inline-block;
-    margin-right: 5%;
+    /* margin-right: 5%; */
     cursor:pointer;
   }
 
@@ -88,11 +88,8 @@
         top: 0;
     }
     .linkedin, .gmail, .github {
-        width: 25px;
+        max-width: 25px;
         height: auto;
     }
 
-    .right button{
-        margin:1%;
-    }
 }

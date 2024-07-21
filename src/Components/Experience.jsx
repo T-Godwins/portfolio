@@ -20,10 +20,10 @@ function Experience(){
         <motion.div 
             initial={{opacity:0, x: 500}}
             whileInView={{opacity: 1, x: 0, transition: {delay: 0.2 , duration: 1}}}
-            viewport={{once: false, amount: .5}} 
+            viewport={{once: false, amount: .3}} 
             className='experiences'>
             <motion.ul
-                initial={{opacity:0}}
+                initial={{opacity:0.3}}
                 whileInView={{opacity: 1, transition: {delay: 0.2 , duration: 1}}}
                 viewport={{once: false, amount: .5}} 
             >Data and Information Fellow
@@ -33,7 +33,7 @@ function Experience(){
                 <li>Highlight career development data trends in blogs, newsletters, and websites to optimize student outcomes.</li>
             </motion.ul>
             <motion.ul
-                initial={{opacity:0}}
+                initial={{opacity:0.3}}
                 whileInView={{opacity: 1, transition: {delay: 0.2 , duration: 1}}}
                 viewport={{once: false, amount: .5}} >Software Engineering Fellow
                 <p><a href={headstarter}>Headstarter</a>: July 2024 - Present</p>
@@ -42,7 +42,7 @@ function Experience(){
                 <li>Coached by Google, Capital One, and Bloomburg engineers on meeting industry standard projects. </li>
             </motion.ul>
             <motion.ul
-                initial={{opacity:0}}
+                initial={{opacity:0.3}}
                 whileInView={{opacity: 1, transition: {delay: 0.2 , duration: 1}}}
                 viewport={{once: false, amount: .5}} >Bayesion False Discovery Researcher
                 <p><a href={wofford}>Wofford College</a>: June 2021 - August 2023</p>
@@ -51,7 +51,7 @@ function Experience(){
                 <li>Prepared ozone data accessibility by analyzing and adjusting for timely consideration of decreasing trends.</li>
             </motion.ul>
             <motion.ul
-                initial={{opacity:0}}
+                initial={{opacity:0.3}}
                 whileInView={{opacity: 1, transition: {delay: 0.2 , duration: 1}}}
                 viewport={{once: false, amount: .5}} > Bioinformatics Intern
                 <p><a href={oncocyte}>Oncocyte</a>: June 2022 - August 2022</p>

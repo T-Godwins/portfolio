@@ -9,7 +9,7 @@ function Header(){
             whileInView={{opacity: 1, y: 0, transition: {delay: 0.2 , duration: 1}}}
             viewport={{once: false, amount: .5}} className='head'>
         <div className="intro">
-            <h3>Hello, I am</h3>
+            <h3>Hello, I'm</h3>
             <h1>Godwins Tuyishime</h1>
             <h4>Welcome to my portfolio. Come back each week for updates.</h4>
         </div>
