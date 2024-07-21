@@ -16,7 +16,7 @@ function Navbar(){
             <div className='right'>
                 <button><a href={linkedin} alt='linked in'><img src={linkedinLogo} className='linkedin' target="_blank" alt='linkedin'></img></a></button>
                 <button><a href={github} alt='github'><img src={gitLogo} className='github' alt='github'></img></a></button>
-                <button><a href='https://gtuyishime@gmail.com' alt='gmail'><img src={gmailLogo} className='gmail' alt='gmail'></img></a></button>
+                {/* <button><a href='https://gtuyishime@gmail.com' alt='gmail'><img src={gmailLogo} className='gmail' alt='gmail'></img></a></button> */}
 
             </div>
         </div>
