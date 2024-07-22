@@ -2,7 +2,7 @@
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://tuyishimeg.co/",
+  "homepage": "https://t-godwins.github.io/portfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite",
