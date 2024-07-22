@@ -39,7 +39,7 @@ function App() {
       initial={{opacity:0, x:-50}}
       whileInView={{opacity:1, x:0, trantion: {delay: 0.2, duration: 0.5}}}
       viewport={{once:false, amount:.5}}
-      className='footer'>More projects in the comming weeks!</motion.h1>
+      className='footer'>More projects coming soon!</motion.h1>
 
       <h1 className='thanks'>
         
